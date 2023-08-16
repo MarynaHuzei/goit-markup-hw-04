@@ -572,7 +572,6 @@ body {
 .socials {
   display: flex;
   flex-direction: column;
-  margin-left: 120px;
 }
 .page-footer-container {
   display: flex;
