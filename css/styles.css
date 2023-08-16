@@ -199,6 +199,7 @@ body {
 }
 .project-cards-link:hover,
 .project-cards-link:focus {
+  transform: translateY(0%);
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
@@ -222,6 +223,9 @@ body {
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+}
+.project-cards-link:focus .overlay {
+  transform: translateY(0%);
 }
 .img-overlay {
   position: relative;
@@ -523,7 +527,7 @@ body {
 }
 
 .customer-logo {
-  fill: var(--lightslate);
+  fill: currentColor;
 }
 .customer-logo:hover,
 .customer-logo :focus {
